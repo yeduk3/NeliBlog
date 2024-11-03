@@ -1,8 +1,8 @@
 #content > * {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 
 #content > .hidden {
-    display: none;
+  display: none;
 }

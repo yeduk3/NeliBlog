@@ -1,16 +1,16 @@
 {
-    "data": [
-        {
-            "name": "aboutme",
-            "HTMLURL": "/main/aboutme.html",
-            "hasJS": true,
-            "JSURL": "/main/js/main.js"
-        },
-        {
-            "name": "articles",
-            "HTMLURL": "/main/articles.html",
-            "hasJS": false,
-            "JSURL": ""
-        }
-    ]
+  "data": [
+    {
+      "name": "aboutme",
+      "HTMLURL": "/main/aboutme.html",
+      "hasJS": true,
+      "JSURL": "/main/js/main.js"
+    },
+    {
+      "name": "articles",
+      "HTMLURL": "/main/articles.html",
+      "hasJS": false,
+      "JSURL": ""
+    }
+  ]
 }

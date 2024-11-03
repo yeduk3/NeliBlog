@@ -3,18 +3,18 @@
 } */
 
 .sidebar {
-    width: 150px;
-    margin-right: 20px;
+  width: 150px;
+  margin-right: 20px;
 }
 
 .sidebar > ul {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 .sidebar a {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .sidebar a:hover {
-    background-color: grey;
+  background-color: grey;
 }

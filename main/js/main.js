@@ -7,19 +7,19 @@
 //     }
 // });
 
-var sidebarList = document.querySelectorAll('.sidebar');
+var sidebarList = document.querySelectorAll(".sidebar");
 // console.log(sidebarList)
 
-for(var sidebar of sidebarList) {
+for (var sidebar of sidebarList) {
+  sidebar.addEventListener("click", function (event) {
+    if (event.target.tagName == "A") {
+      var curContent = event.target.parentNode.parentNode.parentNode.parentNode;
+      var contentName = curContent.classList[0];
 
-    sidebar.addEventListener('click', function(event) {
-        if( event.target.tagName == 'A' ) {
-            var curContent = event.target.parentNode.parentNode.parentNode.parentNode;
-            var contentName = curContent.classList[0];
-
-            var selected = event.target.textContent.toLowerCase().replace(' ', '');
-            curContent.getElementsByClassName('markdown-body')[0].setAttribute('src', '/main/' + contentName + '_' + selected + '.md');
-        }
-    });
+      var selected = event.target.textContent.toLowerCase().replace(" ", "");
+      curContent
+        .getElementsByClassName("markdown-body")[0]
+        .setAttribute("src", "/main/" + contentName + "_" + selected + ".md");
+    }
+  });
 }
-
