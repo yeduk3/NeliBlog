@@ -2,7 +2,8 @@
   "version": 2,
   "builds": [
     { "src": "index.html", "use": "@vercel/static" },
-    { "src": "/(.*)", "use": "@vercel/static" }
+    { "src": "/content.js", "use": "@vercel/static" },
+    { "src": "/static/js/staticHTMLIncluder.js", "use": "@vercel/static" }
   ],
   "routes": [
     { "src": "/(.*)", "dest": "/index.html" },
