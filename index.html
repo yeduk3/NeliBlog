@@ -1,37 +1,39 @@
 <!DOCTYPE html>
 <html lang="ko">
-    <head>
-        <meta charset="utf-8">
+  <head>
+    <meta charset="utf-8" />
 
+    <!-- static -->
+    <link rel="stylesheet" href="/static/css/header.css" />
+    <link rel="stylesheet" href="/static/css/navi.css" />
+    <link rel="stylesheet" href="/static/css/footer.css" />
+    <link rel="stylesheet" href="style.css" />
 
-        <!-- static -->
-        <link rel="stylesheet" href="/static/css/header.css"></link>
-        <link rel="stylesheet" href="/static/css/navi.css"></link>
-        <link rel="stylesheet" href="/static/css/footer.css"></link>
-        <link rel="stylesheet" href="style.css"></link>
+    <!-- main -->
+    <link rel="stylesheet" href="/main/main.css" />
+    <!-- markdown style -->
+    <!-- https://cdnjs.com/libraries/github-markdown-css -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.6.1/github-markdown-light.css"
+      integrity="sha512-tVO0ZLV54CEoiM+i1hvfZGcopGR3rxyyC3L2/P/6NRTVXlrp4OKyTFunluVG1BRNasDLnm6ZRPDKBGM0CkS99Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
 
-        <!-- main -->
-        <link rel="stylesheet" href="/main/main.css"></link>
-        <!-- markdown style -->
-        <!-- https://cdnjs.com/libraries/github-markdown-css -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.6.1/github-markdown-light.css" integrity="sha512-tVO0ZLV54CEoiM+i1hvfZGcopGR3rxyyC3L2/P/6NRTVXlrp4OKyTFunluVG1BRNasDLnm6ZRPDKBGM0CkS99Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-        
-        <!-- mdblock -->
-        <!-- https://md-block.verou.me/#api -->
-        <script type="module" src="https://md-block.verou.me/md-block.js"></script>
+    <!-- mdblock -->
+    <!-- https://md-block.verou.me/#api -->
+    <script type="module" src="https://md-block.verou.me/md-block.js"></script>
 
-        
-        
-        <title>Neli's Blog</title>
-    </head>
-    <body>
-        <header id="header"></header>
-        <nav id="navigator"></nav>
-        <main id="content"></main>
-        <footer id="footer"></footer>
+    <title>Neli's Blog</title>
+  </head>
+  <body>
+    <header id="header"></header>
+    <nav id="navigator"></nav>
+    <main id="content"></main>
+    <footer id="footer"></footer>
 
-
-        <script type="text/javascript" src="/static/js/staticHTMLIncluder.js"></script>
-        <script type="text/javascript" src="/content.js"></script>
-    </body>
+    <script type="text/javascript" src="/static/staticHTMLIncluder.js"></script>
+    <script type="text/javascript" src="/js/content.js"></script>
+  </body>
 </html>
