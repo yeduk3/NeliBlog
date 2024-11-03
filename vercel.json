@@ -4,5 +4,8 @@
     { "src": "index.html", "use": "@vercel/static" },
     { "src": "/(.*)", "use": "@vercel/static" }
   ],
-  "routes": [{ "src": "/(.*)", "dest": "/index.html" }]
+  "routes": [
+    { "src": "/(.*)", "dest": "/index.html" },
+    { "src": "/(.*)", "dest": "/static/js/staticHTMLIncluder.js" }
+  ]
 }
