@@ -1,0 +1,8 @@
+{
+  "name": "neli-blog",
+  "version": "1.0.0",
+  "description": "neli's own blog",
+  "scripts": {
+    "start": "vercel dev"
+  }
+}
