@@ -1,38 +1,3 @@
-// $('#content').load('/main/aboutme.html');
-
-/*
-var content = document.querySelector('#content');
-
-var aboutmeXHR = new XMLHttpRequest();
-aboutmeXHR.open('get', '/main/aboutme.html', true);
-aboutmeXHR.send();
-aboutmeXHR.onload = () => {
-    var div = document.createElement('div');
-    div.classList.add('aboutme');
-    // div.classList.add('hidden');
-    div.innerHTML = aboutmeXHR.responseText;
-    content.appendChild(div);
-
-    var scr = document.createElement('script');
-    scr.type = 'text/javascript';
-    scr.src = '/main/js/aboutme.js';
-    content.appendChild(scr);
-};
-
-var articleXHR = new XMLHttpRequest();
-articleXHR.open('get', '/main/articles.html', true);
-articleXHR.send();
-articleXHR.onload = () => {
-    var div = document.createElement('div');
-    div.classList.add('articles');
-    div.classList.add('hidden');
-    div.innerHTML = articleXHR.responseText;
-    content.appendChild(div);
-    
-    // var scr = 
-}
-*/
-
 var content = document.querySelector("#content");
 
 var jsonXHR = new XMLHttpRequest();
