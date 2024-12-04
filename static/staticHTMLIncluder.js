@@ -7,6 +7,7 @@ headerXHR.onload = () => {
   document.querySelector("#header").innerHTML = headerXHR.responseText;
 };
 
+/*
 // $('#navigator').load('/static/html/navi.html');
 var naviXHR = new XMLHttpRequest();
 naviXHR.open("get", "/static/html/navi.html", true);
@@ -24,6 +25,7 @@ naviXHR.onload = () => {
   scr.src = "/static/js/navi.js";
   navi.appendChild(scr);
 };
+*/
 
 // $('#footer').load('/static/html/footer.html');
 var footerXHR = new XMLHttpRequest();
